@@ -1,0 +1,36 @@
+
+/* CSS Document */
+.fileUploader1{
+	width:500px;
+	height:300px;
+	color:white;
+	background-color:#096;
+	alignment-adjust:middle;
+	border: 4px solid #096;	
+	margin:	10px 0px 0px 400px;
+	font-variant:small-caps;
+	font-family:Verdana, Geneva, sans-serif;
+}
+.fileUploder1 p{
+                padding-lef:200px;;	
+}
+#fakeBrowse{
+	background-color:white;
+	width:250px;
+	height:100px;
+	cursor:pointer;
+	z-index:-1;
+	color:black;
+	font-size:24px;
+	font-variant:small-caps;
+	border:0;
+}
+#uploadBtn{
+	
+	color:black;
+	background-color:white;
+	width:200px;
+	height:100px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:24px;
+	font-variant:small-caps;

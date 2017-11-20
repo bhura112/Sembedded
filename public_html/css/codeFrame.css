@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+.MainContainer{
+	
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+
+.TheoryArea{
+	display: inline-block;
+	width: 80%;
+	height: auto;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	color: 524141;
+	font-size: 20px;
+	font-variant: small-caps;
+}
+.AnimationArea{
+	display: inline-block;
+	width: 40%;
+	height: auto;
+}
+.DesignArea{
+	display: inline-block;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	width: 80%;
+	color: #524141;
+	height: auto;
+}
+.YouTubeArea{
+	display: inline-block;
+	width: 80%;
+	height: auto;
+}
+.CodeArea{
+	display: inline-block;
+	width: 80%;
+	height: auto;
+}
+.CommentArea{
+	display: inline-block;
+	width: 80%;
+	height: auto;
+}

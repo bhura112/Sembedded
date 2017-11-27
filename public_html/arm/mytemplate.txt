@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <link rel="stylesheet" type="text/css" href="../css/index.css"/>
+  <link rel="stylesheet" type="text/css" href="../css/childFrame.css"/>
+  <script src="../js/childFrame.js"></script>
+<title>ARM Series</title>
+</head>
+
+<body>
+<header class="header">
+
+<div class="hpart1">
+ <a href="http://sembedded.net">SEmbedded Web</a>
+</div>
+
+<div class="hpart2">
+      <a href="../8051">    8051 Series  </a>
+      <a href="../avr">     Avr Series   </a>
+      <a href="../pic/">     Pic Series   </a>
+      <a href="../arm/">     Arm Series   </a>
+      <a href="uc.php">   Rtos         </a>
+      <a href="uc.php">   Linux        </a>
+      <a href="uc.php"> Contact Us   </a>
+</div>
+</header>
+<div class="hr1"></div>
+<!-- **********************************************************header End ***************************************** -->
+<div class="Container1">
+  <div class="Container1-Header">  <p><a style="text-decoration: none; color: #fff;"href="../">Home</a></p>  </div>
+   <div class="Container1-List">
+    		<ul class="list1">
+            <li><a  id="defaultOpen" class="tablinks" href="#" onClick="openCity(event,'Intro',this)">Introduction</a></li><br/>
+        		<li><a id="tab2" class="tablinks" href="#" onClick="openCity(event,'Basic',this)">Basics</a></li><br/>
+        		<li><a id="tab3" class="tablinks" href="#" onClick="openCity(event,'Soft',this)">Software</a></li><br/>
+        		<li><a id="tab4" class="tablinks" href="#" onClick="openCity(event,'Doc',this)">Documents</a></li><br/>
+        		<li><a id="tab5" class="tablinks"href="#" onClick="openCity(event,'Code',this)">Codes</a></li><br/>
+    		</ul>
+   </div>
+</div>
+
+<div id="Intro" class="Container2">
+   <p>Intro</p>
+</div>
+
+<div id="Basic" class="Container2">
+   <p>Basic</p>
+</div>
+
+<div id="Soft" class="Container2">
+   <p>soft</p>
+</div>
+<div id="Doc" class="Container2">
+ <p> DOC</p>
+</div>
+
+<div id="Code" class="Container2">
+<p>Code</p>
+</div>
+
+</body>
+</html>

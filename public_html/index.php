@@ -34,7 +34,80 @@
  <a href="http://sembedded.net">SEmbedded Web</a>
 </div>
 
-<div class="hpart2">
+<div class="dropdown">
+  <button class="dropbtn">8051 Series</button>
+  <div class="dropdown-content">
+    <a href="8051/at89c51">AT89C51</a>
+    <a href="8051/at89s51/">AT89S51</a>
+    <a href="8051/sst89rdxxx/">SST89RDxxx</a>
+
+  </div>
+</div>
+
+<div class="dropdown">
+  <button class="dropbtn">AVR Series</button>
+  <div class="dropdown-content">
+    <a href="avr/atmega8/">ATmega8</a>
+    <a href="avr/atmega16/">ATmega16</a>
+    <a href="avr/atmega32/">ATmega32</a>
+    <a href="avr/atmega32/">ATmega128</a>
+    <a href="avr/atmega328p/">ATmega328p</a>
+  </div>
+</div>
+
+<div class="dropdown">
+  <button class="dropbtn">PIC Series</button>
+  <div class="dropdown-content">
+    <a href="pic/pic12fxx/">PIC12Fxx</a>
+    <a href="pic/pic16fxx/">PIC16Fxx</a>
+    <a href="pic/pic18fxx/">PIC18Fxx</a>
+    <a href="pic/pic24fjxx/">PIC24fjxx</a>
+    <a href="pic/pic32Mxxx/">PIC32MXxx</a>
+    <a href="pic/pic32_ds/">PIC_ds32</a>
+  </div>
+</div>
+
+<div class="dropdown">
+  <button class="dropbtn">ARM Series</button>
+  <div class="dropdown-content">
+    <a href="arm/lpc2124/">LPC2124</a>
+    <a href="arm/lpc2129/">LPC2129</a>
+    <a href="arm/lpc2138/">LPC2138</a>
+    <a href="arm/lpc2148/">LPC2148</a>
+    <a href="arm/arm-cortexM0/">ARM-Cortex M0</a>
+  </div>
+</div>
+
+<div class="dropdown">
+  <button class="dropbtn">FreeRTOS</button>
+  <div class="dropdown-content">
+    <a href="#">LPC2124</a>
+    <a href="#">LPC2148</a>
+    <a href="#">PIC32</a>
+  </div>
+</div>
+
+<div class="dropdown">
+  <button class="dropbtn">Linux</button>
+  <div class="dropdown-content">
+    <a href="http://sembedded.net">Shell Scripting</a>
+    <a href="#">Process</a>
+    <a href="#">MultiThreading</a>
+    <a href="#">MUTEX</a>
+    <a href="#">GUI with QT</a>
+    <a href="#">Socket</a>
+    <a href="#">Device Drivers</a>
+  </div>
+</div>
+
+<div class="dropdown">
+  <button class="dropbtn">Contact</button>
+  <div class="dropdown-content">
+    <a href="http://sembedded.net">Mail-Me</a>
+    <a href="#">About Us</a>
+  </div>
+</div>
+<!--<div class="hpart2">
       <a href="8051/">    8051 Series  </a>
       <a href="avr/">     Avr Series   </a>
       <a href="pic/">     Pic Series   </a>
@@ -42,15 +115,26 @@
       <a href="uc.php">   Rtos         </a>
       <a href="uc.php">   Linux        </a>
       <a href="uc.php"> Contact Us   </a>
-</div>
+</div>-->
 </header>
 <div class="hr1"></div>
-
+<div style=" background-color:white; margin:10px 70px 0px 70px;">
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <!-- main_page -->
+  <ins class="adsbygoogle"
+       style="display:block"
+       data-ad-client="ca-pub-8795837294797076"
+       data-ad-slot="7076115916"
+       data-ad-format="auto"></ins>
+  <script>
+  (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+</div>
 <div class="sec1">
 	<div class="display-box">
-	<p>If you destroy the earth, you destroy the chance of life. <br/></br/>Download And Share Code,Design & Algo's </p>	
+	<p>If you destroy the earth, you destroy the chance of life. <br/></br/>Download And Share Code,Design & Algo's </p>
 	<iframe style="margin: 20px 0px 0px 150px;" width="500px" height="300px" src="https://www.youtube.com/embed/RYxzHeCEqag" allowfullscreen="allowfullscreen" mozallowfullscreen="mozallowfullscreen" msallowfullscreen="msallowfullscreen" oallowfullscreen="oallowfullscreen" webkitallowfullscreen="webkitallowfullscreen" frameborder="0">
- 		
+
  	</iframe>
 	</div>
 	<div class="login-box">
@@ -60,7 +144,7 @@
 	  <input type="password" id="in2" placeholder = "Password"/><br /><br/>
 	  <input type="submit" id="in3" name="login" value="Log In"/> <br />
 	  <p class="logintxt2"> <span><a href="uc.php">Forgotten Password ?</a></span> <span> <a href="uc.php">Sign Up For Sembedded Web </a></span> </p>
-	</form>	
+	</form>
 	<br/><br/>
 	<a href="#">	<img src="images/avr.png"/></a>
 	<a href="#"><img src="images/mplblgo.png"/></a>
@@ -71,13 +155,13 @@
 </div>
 <div class="sec2">
 	<div class="left-sec2">
-	     
+
 		<p><b>Embedded Systems</b><br/><br/>
 		An <b>embedded system</b> is a computer system with a dedicated function within a larger mechanical or electrical system, often with <i>real-time computing constraints</i>.<br/>It is embedded as part of a complete device often <br/> including hardware and mechanical parts.
 		Embedded systems control many devices in common use today.Ninety-eight percent of all microprocessors are manufactured as components of embedded systems</p>
 	</div>
 	<div class="right-sec2"><img src="images/learn-programming.jpg"/></div>
-	
+
 </div>
 <div class="sec3">
 	<div class="left-sec3">
@@ -89,7 +173,7 @@ C is a widely used general purpose high level programming language mainly intend
 Embedded C is an extension to C programming language that provides support for developing efficient programs for embedded devices.</p>
 	</div>
 	<div class="right-sec3"><img src="images/learn-to-code.jpg"/></div>
-	
+
 </div>
 <div class="sec4">
 	<div class="left-sec4">
@@ -97,7 +181,7 @@ Embedded C is an extension to C programming language that provides support for d
 		A real-time operating system (RTOS) is an operating system (OS) intended to serve real-time applications that process data as it comes in, typically without buffer delays. Processing time requirements (including any OS delay) are measured in tenths of seconds or shorter increments of time.</p>
 	</div>
 	<div class="right-sec4"><img src="images/programming-tutorial.jpg"/></div>
-	
+
 </div>
 <footer class="footer">
 <p> Sembedded Web</p>
